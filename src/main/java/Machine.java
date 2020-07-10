@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public abstract class Machine  {
 
-public class Machine {
+    public abstract void doWork();
+
+    public abstract void stopWork();
 }
