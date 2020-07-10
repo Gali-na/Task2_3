@@ -15,18 +15,18 @@ import java.util.ArrayList;
  */
 
 public class MainApp {
-    public static void main( String [] args) {
+    public static void main(String[] args) {
         Excavator excavator = new Excavator();
-        Bulldozer bulldozer =new Bulldozer();
-        Track track =new Track();
+        Bulldozer bulldozer = new Bulldozer();
+        Track track = new Track();
         ArrayList<Machine> machines = new ArrayList<Machine>();
         machines.add(excavator);
         machines.add(bulldozer);
         machines.add(track);
-        for (Machine car:machines) {
+        for (Machine car : machines) {
             car.doWork();
         }
-        for (Machine car:machines) {
+        for (Machine car : machines) {
             car.stopWork();
         }
 
